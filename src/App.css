@@ -1,20 +1,25 @@
+.App {
+  background-color: whitesmoke;
+}
+
 .Header-bar {
-  padding: 20px;
   padding-left:25%;
   padding-right: 25%;
+  text-align: center;
+  background-color: white;
+  height: 120px;
 }
 
 .Header-bar ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
   display: flex;
-  align-content: center;
   justify-content: center;
+  gap: 150px;
 }
 
 .Header-bar li {
-  margin: auto;
+  display: flex;
+  align-items: center;
 }
 
 .Banner {
@@ -23,7 +28,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 680px;
+  height: 700px;
 }
 
 .Banner-text {
@@ -44,21 +49,56 @@
 }
 
 .About {
+  margin-left: 5%;
+  margin-right: 5%;
   text-align: center;
-  padding-left: 15%;
-  padding-right: 15%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
-/* .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Location {
+  padding-left: 5%;
+  padding-right: 5%;
+  list-style-type: none;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-} */
+  gap: 30px;
+}
+
+.Contact {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.Contact ul {
+  padding: 10px;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+}
+
+.Contact li {
+  display: flex;
+  align-items: center;
+}
+
+.Contact div {
+  margin-left: 30px;
+}
+
+.FAQ {
+  text-align: center;
+  background-color: aqua;
+  margin-left: 8%;
+  margin-right: 8%;
+  padding: 10px;
+}
+
+.FAQ ul{
+  text-align: left;
+  list-style-type: none;
+}
 
 .App-link {
   color: #61dafb;
