@@ -1,105 +1,29 @@
-.App {
-  background-color: whitesmoke;
-}
-
-.Header-bar {
-  padding-left:25%;
-  padding-right: 25%;
-  text-align: center;
-  background-color: white;
-  height: 120px;
-}
-
-.Header-bar ul {
-  list-style-type: none;
-  display: flex;
-  justify-content: center;
-  gap: 150px;
-}
-
-.Header-bar li {
-  display: flex;
-  align-items: center;
-}
-
-.Banner {
-  padding: 20px;
-  background-color: #61dafb;
+.Footer {
+  padding: 10px;
+  background-color: red;
+  color: white;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 700px;
+  height: 40px;
 }
 
-.Banner-text {
-  padding-top: 150px;
-  width: 50%;
-  text-align: center;
-}
-
-.Banner-image {
+.Social {
   width: 50%;
   display: flex;
-  justify-content: center;
+  justify-content: right;
   align-items: center;
 }
 
-.Banner-text p {
-  padding-bottom: 100px;
-}
-
-.About {
-  margin-left: 5%;
-  margin-right: 5%;
-  text-align: center;
-  padding-left: 5%;
-  padding-right: 5%;
-}
-
-.Location {
-  padding-left: 5%;
-  padding-right: 5%;
-  list-style-type: none;
+.Copyright {
+  width: 50%;
   display: flex;
-  justify-content: center;
-  gap: 30px;
-}
-
-.Contact {
-  padding-left: 5%;
-  padding-right: 5%;
-}
-
-.Contact ul {
-  padding: 10px;
-  list-style-type: none;
-  display: flex;
-  justify-content: center;
-  gap: 150px;
-}
-
-.Contact li {
-  display: flex;
+  justify-content: left;
   align-items: center;
-}
-
-.Contact div {
   margin-left: 30px;
 }
 
-.FAQ {
-  text-align: center;
-  background-color: aqua;
-  margin-left: 8%;
-  margin-right: 8%;
-  padding: 10px;
-}
-
-.FAQ ul{
-  text-align: left;
-  list-style-type: none;
-}
-
-.App-link {
-  color: #61dafb;
+.SocialImg {
+  height: 30px;
+  margin-right: 30px;
 }
